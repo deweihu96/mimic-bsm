@@ -1,7 +1,7 @@
 Some of the code is referred from this [repo](https://github.com/jamesmullenbach/caml-mimic). 
 
 # BSM-MIMICIII
-Code for the paper Rationalizing Clinical Text Makes ICD Codes Assignment More Interpretable
+Code for the paper A Binary Soft Mask Approach for ICD Coding from Clinical Text
 
 ## Dependencies
 - Python 3.7
