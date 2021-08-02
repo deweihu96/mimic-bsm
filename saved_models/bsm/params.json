@@ -1,0 +1,18 @@
+{
+ "Y": "50",
+ "filter_size": "4",
+ "dropout": 0.2,
+ "num_filter_maps": 500,
+ "rnn_dim": 128,
+ "cell_type": "gru",
+ "rnn_layers": 1,
+ "lmbda": 0,
+ "command": "python ./drive/MyDrive/thesis_folder/re-implement-caml/caml-mimic-master/learn/training.py ./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/train_50.csv ./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/vocab.csv 50 bsm_maxpooling 100 --num-filter-maps 500 --filter-size 4 --dropout 0.2 --batch-size 8 --patience 6 --criterion f1_micro --lr 0.001 --lstm-hidden-size 64 --lambda-p 0.25 --tau 0.8 --embed-file ./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/processed_full.embed --gpu --description-file ./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/description_vectors.vocab --stopwords-file ./drive/MyDrive/thesis_folder/re-implement-caml/caml-mimic-master/stopwords.txt --stop-essential --top50 --initial-weights 1 0.02 0.05",
+ "weight_decay": 0,
+ "version": "mimic3",
+ "data_path": "./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/train_50.csv",
+ "vocab": "./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/vocab.csv",
+ "embed_file": "./drive/MyDrive/thesis_folder/re-implement-caml/mimicdata/mimic3/processed_full.embed",
+ "lr": 0.001,
+ "model_dir": "/content/drive/MyDrive/thesis_folder/re-implement-caml/top50_models/bsm_maxpooling_May_24_13:29:13"
+}
