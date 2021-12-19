@@ -3,6 +3,10 @@ Some of the code is referred from this [repo](https://github.com/jamesmullenbach
 # BSM-MIMICIII
 Code for the paper A Binary Soft Mask Approach for ICD Coding from Clinical Text
 
+## Model
+![image](https://user-images.githubusercontent.com/48980790/146659577-ab4c97f9-f5b7-47e6-b3a6-f98ca43202df.png)
+
+
 ## Dependencies
 - Python 3.7
 - PyTorch 1.9.0 
@@ -42,8 +46,14 @@ To train a new BSM model, first modify the file `constants.py`, and run `train_b
 
 We provide a trained BSM model in `saved_models` folder, by running `test_bsm.sh` you can check the metrics. There is also a `CAML` model in this folder, published by Mullenbach: https://github.com/jamesmullenbach/caml-mimic, the original paper: [Explainable Prediction of Medical Codes from Clinical Text](https://arxiv.org/abs/1802.05695).
 
-## Results
+
+## Results on MIMIC-III top 50 labels test set
+![image](https://user-images.githubusercontent.com/48980790/146659648-3355bf92-bf01-445a-a5d3-ff2bc1c3b988.png)
+
+
+## Full Results
 
 In `results/omission` and `results/selection` , there are analysis we have done. By running these shell commands you will get some files used for the further analysis, and the examples in the appendix. In `results/saved_results`, these are results we got.
 
 For comparison of the explainability between CAML and BSM, run all cells in  `notebooks/comparison.ipynb` and you'll get figures.
+
