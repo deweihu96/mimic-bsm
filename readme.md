@@ -1,10 +1,13 @@
-Some of the code is referred from this [repo](https://github.com/jamesmullenbach/caml-mimic). 
-
 # BSM-MIMICIII
 Code for the paper A Binary Soft Mask Approach for ICD Coding from Clinical Text
 
 ## Model
-![image](https://user-images.githubusercontent.com/48980790/146659577-ab4c97f9-f5b7-47e6-b3a6-f98ca43202df.png)
+<div align=center>
+  <img width="604" height="389" src="https://user-images.githubusercontent.com/48980790/146659796-47b1bbe1-808c-47de-97d3-ee8520065171.png" />
+</div>
+
+
+
 
 
 ## Dependencies
@@ -44,11 +47,14 @@ To train a new BSM model, first modify the file `constants.py`, and run `train_b
 
 ## Test a model
 
-We provide a trained BSM model in `saved_models` folder, by running `test_bsm.sh` you can check the metrics. There is also a `CAML` model in this folder, published by Mullenbach: https://github.com/jamesmullenbach/caml-mimic, the original paper: [Explainable Prediction of Medical Codes from Clinical Text](https://arxiv.org/abs/1802.05695).
+We provide a trained BSM model in `saved_models` folder, by running `test_bsm.sh` you can check the metrics. There is also a `CAML` model in this folder, published by Mullenbach: https://github.com/jamesmullenbach/caml-mimic from the paper: [Explainable Prediction of Medical Codes from Clinical Text](https://arxiv.org/abs/1802.05695).
 
 
 ## Results on MIMIC-III top 50 labels test set
-![image](https://user-images.githubusercontent.com/48980790/146659648-3355bf92-bf01-445a-a5d3-ff2bc1c3b988.png)
+<div align=center>
+  <img width="554" height="354" src="https://user-images.githubusercontent.com/48980790/146659881-e8713fc4-a72e-416e-b109-3cf6769500e5.png" />
+</div>
+
 
 
 ## Full Results
